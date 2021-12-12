@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="3dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"           android:layout_margin="10dp"
             android:gravity="center|end"
-            android:text="1234567"
+            android:text="@string/temp_text_for_view"
             android:textColor="@android:color/black"
             android:textSize="50sp" />
 
@@ -41,7 +42,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/design_default_color_secondary"
-            android:text="C"
+            android:text="@string/text_clear"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -53,7 +54,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_blue"
-            android:text="( )"
+            android:text="@string/text_parentheses"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -65,7 +66,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_blue"
-            android:text="%"
+            android:text="@string/text_percent"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -77,7 +78,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_blue"
-            android:text="\u00F7"
+            android:text="@string/text_division"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
     </LinearLayout>
@@ -95,7 +96,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-             android:text="7"
+             android:text="@string/text_seven"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -107,7 +108,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="8"
+            android:text="@string/text_eight"
             android:textColor="@color/black"
             android:textSize="30sp" />
 
@@ -119,7 +120,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="9"
+            android:text="@string/text_nine"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -131,7 +132,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_blue"
-            android:text="x"
+            android:text="@string/text_multiplication"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
     </LinearLayout>
@@ -150,8 +151,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-
-            android:text="4"
+            android:text="@string/text_four"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -163,7 +163,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="5"
+            android:text="@string/text_five"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -175,7 +175,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="6"
+            android:text="@string/text_six"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -187,7 +187,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_blue"
-            android:text="-"
+            android:text="@string/text_subtraction"
             android:textColor="@android:color/black"
             android:textSize="40sp" />
     </LinearLayout>
@@ -206,7 +206,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="1"
+            android:text="@string/text_one"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -218,7 +218,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="2"
+            android:text="@string/text_two"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -230,7 +230,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="3"
+            android:text="@string/text_three"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -242,7 +242,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_blue"
-            android:text="+"
+            android:text="@string/text_addition"
             android:textColor="@android:color/black"
             android:textSize="40sp" />
     </LinearLayout>
@@ -261,7 +261,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="0"
+            android:text="@string/text_zero"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -273,7 +273,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="\u00B7"
+            android:text="@string/text_dot"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -285,7 +285,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_grey"
-            android:text="\u232B"
+            android:text="@string/text_backspace"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
 
@@ -297,7 +297,7 @@
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/light_blue"
-            android:text="="
+            android:text="@string/text_equal"
             android:textColor="@android:color/black"
             android:textSize="40sp" />
     </LinearLayout>

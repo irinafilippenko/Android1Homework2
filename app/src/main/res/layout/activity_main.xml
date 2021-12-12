@@ -40,6 +40,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/design_default_color_secondary"
             android:text="C"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -51,6 +52,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_blue"
             android:text="( )"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -62,6 +64,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_blue"
             android:text="%"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -73,6 +76,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_blue"
             android:text="\u00F7"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -90,6 +94,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
              android:text="7"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -101,8 +106,9 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="8"
-            android:textColor="@android:color/black"
+            android:textColor="@color/black"
             android:textSize="30sp" />
 
         <Button
@@ -112,6 +118,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="9"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -123,6 +130,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_blue"
             android:text="x"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -141,6 +149,8 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
+
             android:text="4"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -152,6 +162,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="5"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -163,6 +174,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="6"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -174,6 +186,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_blue"
             android:text="-"
             android:textColor="@android:color/black"
             android:textSize="40sp" />
@@ -192,6 +205,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="1"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -203,6 +217,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="2"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -214,6 +229,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="3"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -225,6 +241,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_blue"
             android:text="+"
             android:textColor="@android:color/black"
             android:textSize="40sp" />
@@ -243,6 +260,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="0"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -254,6 +272,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="\u00B7"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -265,6 +284,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_grey"
             android:text="\u232B"
             android:textColor="@android:color/black"
             android:textSize="30sp" />
@@ -276,6 +296,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
+            android:backgroundTint="@color/light_blue"
             android:text="="
             android:textColor="@android:color/black"
             android:textSize="40sp" />

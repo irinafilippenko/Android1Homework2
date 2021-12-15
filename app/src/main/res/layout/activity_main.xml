@@ -24,7 +24,6 @@
             android:gravity="center|end"
             android:textColor="@android:color/black"
             android:textSize="50sp" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -188,7 +187,7 @@
             android:backgroundTint="@color/light_blue"
             android:text="@string/text_subtraction"
             android:textColor="@android:color/black"
-            android:textSize="40sp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -243,7 +242,7 @@
             android:backgroundTint="@color/light_blue"
             android:text="@string/text_addition"
             android:textColor="@android:color/black"
-            android:textSize="40sp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -298,7 +297,7 @@
             android:backgroundTint="@color/light_blue"
             android:text="@string/text_equal"
             android:textColor="@android:color/black"
-            android:textSize="40sp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
 </LinearLayout>

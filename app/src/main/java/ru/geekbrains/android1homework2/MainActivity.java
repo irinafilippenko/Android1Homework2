@@ -1,11 +1,16 @@
 package ru.geekbrains.android1homework2;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String DISPLAYSYMBOLS = "DISPLAYSYMBOLS";
+    private String displaySymbols = new String("");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,5 +37,58 @@ public class MainActivity extends AppCompatActivity {
         Button buttonDot = (Button) this.findViewById(R.id.button_dot);
         Button buttonBackspace = (Button) this.findViewById(R.id.button_backspace);
         Button buttonEqual = (Button) this.findViewById(R.id.button_equal);
+        TextView displayNumbers = (TextView) this.findViewById(R.id.display_numbers);
+
+        if (savedInstanceState != null && savedInstanceState.containsKey(DISPLAYSYMBOLS)) {
+            displaySymbols = savedInstanceState.getString(DISPLAYSYMBOLS);
+        }
+
+        displayNumbers.setText(displaySymbols);
+
+        buttonClear.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "C"));
+
+        buttonParentheses.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "()"));
+
+        buttonPercent.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "%"));
+
+        buttonDivision.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "/"));
+
+        buttonSeven.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "7"));
+
+        buttonEight.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "8"));
+
+        buttonNine.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "9"));
+
+        buttonMultiplication.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "X"));
+
+        buttonFour.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "4"));
+
+        buttonFive.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "5"));
+
+        buttonSix.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "6"));
+
+        buttonSubtraction.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "-"));
+
+        buttonOne.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "1"));
+
+        buttonTwo.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "2"));
+
+        buttonThree.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "3"));
+
+        buttonAddition.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "+"));
+
+        buttonZero.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "0"));
+
+        buttonDot.setOnClickListener(v -> displayNumbers.setText(displaySymbols += ","));
+
+        buttonBackspace.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "Bs"));
+
+        buttonEqual.setOnClickListener(v -> displayNumbers.setText(displaySymbols += "="));
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(DISPLAYSYMBOLS, displaySymbols);
     }
 }

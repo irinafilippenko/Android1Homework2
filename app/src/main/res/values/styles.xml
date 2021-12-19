@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>.
+    <style name="CalcButtonStyle">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/button_margin_left</item>
+        <item name="android:layout_marginEnd">@dimen/button_margin_right</item>
+        <item name="android:layout_weight">@dimen/button_weight</item>
+        <item name="backgroundTint">@color/button_number_background</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="CalcButtonStyle.Land">
+        <item name="android:layout_weight">@dimen/button_land_weight</item>
+        <item name="android:textSize">@dimen/button_land_text_size</item>
+    </style>
+
+    <style name="CalcButtonStyle.Clear">
+        <item name="backgroundTint">@color/button_clear_background</item>
+    </style>
+
+    <style name="CalcButtonStyle.LandClear">
+        <item name="android:layout_weight">@dimen/button_land_weight</item>
+        <item name="backgroundTint">@color/button_clear_background</item>
+        <item name="android:textSize">@dimen/button_land_text_size</item>
+    </style>
+
+    <style name="CalcButtonStyle.Operation">
+        <item name="backgroundTint">@color/button_operation_background</item>
+    </style>
+
+    <style name="CalcButtonStyle.LandOperation">
+        <item name="android:layout_weight">@dimen/button_land_weight</item>
+        <item name="backgroundTint">@color/button_operation_background</item>
+        <item name="android:textSize">@dimen/button_land_text_size</item>
+    </style>
+
+</resources>

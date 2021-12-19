@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>.
+<resources>
+
     <style name="CalcButtonStyle">
         <item name="android:layout_width">@dimen/button_width</item>
         <item name="android:layout_height">match_parent</item>
@@ -36,5 +37,4 @@
         <item name="backgroundTint">@color/button_operation_background</item>
         <item name="android:textSize">@dimen/button_land_text_size</item>
     </style>
-
 </resources>

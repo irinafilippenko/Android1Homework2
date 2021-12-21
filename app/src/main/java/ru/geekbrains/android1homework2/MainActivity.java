@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.material.button.MaterialButton;
+
 public class MainActivity extends AppCompatActivity {
     public static final String DISPLAYSYMBOLS = "DISPLAYSYMBOLS";
     private String displaySymbols = new String("");
@@ -17,26 +19,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonClear = (Button) this.findViewById(R.id.button_clear);
-        Button buttonParentheses = (Button) this.findViewById(R.id.button_parentheses);
-        Button buttonPercent = (Button) this.findViewById(R.id.button_percent);
-        Button buttonDivision = (Button) this.findViewById(R.id.button_division);
-        Button buttonSeven = (Button) this.findViewById(R.id.button_seven);
-        Button buttonEight = (Button) this.findViewById(R.id.button_eight);
-        Button buttonNine = (Button) this.findViewById(R.id.button_nine);
-        Button buttonMultiplication = (Button) this.findViewById(R.id.button_multiplication);
-        Button buttonFour = (Button) this.findViewById(R.id.button_four);
-        Button buttonFive = (Button) this.findViewById(R.id.button_five);
-        Button buttonSix = (Button) this.findViewById(R.id.button_six);
-        Button buttonSubtraction = (Button) this.findViewById(R.id.button_subtraction);
-        Button buttonOne = (Button) this.findViewById(R.id.button_one);
-        Button buttonTwo = (Button) this.findViewById(R.id.button_two);
-        Button buttonThree = (Button) this.findViewById(R.id.button_three);
-        Button buttonAddition = (Button) this.findViewById(R.id.button_addition);
-        Button buttonZero = (Button) this.findViewById(R.id.button_zero);
-        Button buttonDot = (Button) this.findViewById(R.id.button_dot);
-        Button buttonBackspace = (Button) this.findViewById(R.id.button_backspace);
-        Button buttonEqual = (Button) this.findViewById(R.id.button_equal);
+        MaterialButton buttonClear = (MaterialButton) this.findViewById(R.id.button_clear);
+        MaterialButton buttonParentheses = (MaterialButton) this.findViewById(R.id.button_parentheses);
+        MaterialButton buttonPercent = (MaterialButton) this.findViewById(R.id.button_percent);
+        MaterialButton buttonDivision = (MaterialButton) this.findViewById(R.id.button_division);
+        MaterialButton buttonSeven = (MaterialButton) this.findViewById(R.id.button_seven);
+        MaterialButton buttonEight = (MaterialButton) this.findViewById(R.id.button_eight);
+        MaterialButton buttonNine = (MaterialButton) this.findViewById(R.id.button_nine);
+        MaterialButton buttonMultiplication = (MaterialButton) this.findViewById(R.id.button_multiplication);
+        MaterialButton buttonFour = (MaterialButton) this.findViewById(R.id.button_four);
+        MaterialButton buttonFive = (MaterialButton) this.findViewById(R.id.button_five);
+        MaterialButton buttonSix = (MaterialButton) this.findViewById(R.id.button_six);
+        MaterialButton buttonSubtraction = (MaterialButton) this.findViewById(R.id.button_subtraction);
+        MaterialButton buttonOne = (MaterialButton) this.findViewById(R.id.button_one);
+        MaterialButton buttonTwo = (MaterialButton) this.findViewById(R.id.button_two);
+        MaterialButton buttonThree = (MaterialButton) this.findViewById(R.id.button_three);
+        MaterialButton buttonAddition = (MaterialButton) this.findViewById(R.id.button_addition);
+        MaterialButton buttonZero = (MaterialButton) this.findViewById(R.id.button_zero);
+        MaterialButton buttonDot = (MaterialButton) this.findViewById(R.id.button_dot);
+        MaterialButton buttonBackspace = (MaterialButton) this.findViewById(R.id.button_backspace);
+        MaterialButton buttonEqual = (MaterialButton) this.findViewById(R.id.button_equal);
         TextView displayNumbers = (TextView) this.findViewById(R.id.display_numbers);
 
         if (savedInstanceState != null && savedInstanceState.containsKey(DISPLAYSYMBOLS)) {

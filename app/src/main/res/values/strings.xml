@@ -21,4 +21,6 @@
     <string name="text_dot">·</string>
     <string name="text_backspace">⌫</string>
     <string name="text_equal">=</string>
+    <string name="day_theme">дневная тема</string>
+    <string name="night_theme">ночная тема</string>
 </resources>

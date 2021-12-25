@@ -346,6 +346,10 @@ public class MainActivity extends AppCompatActivity {
                                     number1 *= number2;
                                     break;
                                 case ('/'):
+                                    if (number2 == 0) {
+                                        displayNumbers.setText("Нельзя делить на ноль");
+                                        return;
+                                    }
                                     number1 /= number2;
                                     break;
                                 case ('%'):
